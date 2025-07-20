@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header, section, footer {
+  padding: 20px;
+  margin: 10px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  color: #0066cc;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+.dark-mode {
+  background-color: #222;
+  color: #fff;
+}
+
+.dark-mode a {
+  color: #4fc3f7;
+}
+
+.dark-mode header, 
+.dark-mode section, 
+.dark-mode footer {
+  background: #333;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+}
